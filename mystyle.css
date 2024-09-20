@@ -9,7 +9,7 @@
     --extra-light: #E3E4E6;
     --white: #FFFFFF;
     --max-width: 1200px;
-    --gradient-text: linear-gradient(to right, #FAF1F1 15%, #600DD1 70%);
+    --gradient-text: linear-gradient(to right, #FAF1F1 15%, #0e3aff 70%);
 }
 
 /* ตั้งค่า Setting Start*/
@@ -106,17 +106,20 @@ nav {
     padding: 6px;
     font-size: 14px;
     font-weight: 600;
-    border: 2px solid #600DD1;
+    border: 2px solid #0e3aff;
     border-radius: 15px;
 }
 
 .link_to_page a:hover {
     color: var(--extra-light);
-    background-color: #600DD1;
+    background: var(--gradient-text);
+    box-shadow: 1px 5px 15px 5px rgba(0, 72, 255, 0.18);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: 6px;
     font-size: 14px;
     font-weight: 600;
-    border: 2px solid #621bc6;
+    border: 2px solid #0e3aff;
     border-radius: 15px;
 }
 
