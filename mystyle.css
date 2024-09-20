@@ -325,5 +325,50 @@ nav {
 
 /* Section About End */
 
+/* Section Video Start */
+.video_container {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+}
+
+.video__content h1 {
+    text-align: center;
+    padding: auto;
+    margin-top: auto;
+    margin-bottom: 2.5rem;
+}
+
+.video__content p {
+    color: var(--text-light);
+    font-size: 1.10rem;
+    padding: auto;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.video__content span {
+    font-size: 2rem;
+    font-weight: 600;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+
+}
+
+.video video {
+    width: 100%;
+    height: 700px;
+    padding: 2rem;
+    border: 2px solid #600DD1;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-shadow: -2px 5px 15px 5px rgba(96, 13, 209, 0.18);
+    box-shadow: -2px 5px 15px 5px rgba(96, 13, 209, 0.18);
+}
+
+/* Section Video End */
+
 
 /* index.html End */
