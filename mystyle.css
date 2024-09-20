@@ -103,7 +103,7 @@ nav {
 
 .link_to_page a {
     color: var(--extra-light);
-    padding: 6px;
+    padding: 8px;
     font-size: 14px;
     font-weight: 600;
     border: 2px solid #0e3aff;
@@ -116,7 +116,7 @@ nav {
     box-shadow: 1px 5px 15px 5px rgba(0, 72, 255, 0.18);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 6px;
+    padding: 8px;
     font-size: 14px;
     font-weight: 600;
     border: 2px solid #0e3aff;
@@ -209,6 +209,18 @@ nav {
     gap: 1rem;
 }
 
+.header_btns a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header_btns a i {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
 .header_btns a:hover {
     box-shadow: 1px 5px 15px 5px rgba(50, 50, 255, 0.18);
 }
@@ -247,6 +259,71 @@ nav {
 }
 
 /* Header End */
+
+/* Section About Start */
+.about_container {
+    display: grid;
+    /* แบ่งเป็น 2 ฝั่งซ้าย-ขวา */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.about__image img {
+    max-width: 450px;
+    margin: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
+    box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
+}
+
+.section__subhesder {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--extra-light);
+    line-height: 1.5rem;
+}
+
+.about__content h1 {
+    color: #FFFFFF;
+}
+
+.about__content span {
+    font-size: 2rem;
+    font-weight: 600;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.about__grid {
+    margin-top: 2rem;
+    display: grid;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.about__card h4 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap;
+    background: linear-gradient(to right, #FAF1F1 10%, #0e3aff 28%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.about__card p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--extra-light);
+}
+
+/* Section About End */
 
 
 /* index.html End */
