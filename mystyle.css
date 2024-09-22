@@ -578,13 +578,19 @@ input[type="radio"]:checked+label {
     animation-delay: 5s;
 }
 
+.container:nth-child(7) {
+    animation-delay: 6s;
+}
 
+/* กล่องข้อความ */
 .textbox {
     padding: 20px 30px;
-    background-color: #fff;
+    border: 2px solid #453fff;
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    -webkit-box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
+    box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
 }
 
 .left-container {
@@ -599,29 +605,35 @@ input[type="radio"]:checked+label {
     left: -20px;
 }
 
+/* Line */
 .timeline::after {
     content: '';
     position: absolute;
     width: 6px;
     height: 100%;
-    background: #fff;
+    background: var(--gradient-text);
     top: 0;
     left: 50%;
     margin-left: -3px;
     z-index: -1;
     animation: moveline 6s linear forwards;
+    -webkit-box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
+    box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
 
 }
 
 .textbox h2 {
     font-weight: 600;
+    color: #E3E4E6;
 }
 
 .textbox small {
     display: inline-block;
     margin-bottom: 15px;
+    color: #E3E4E6;
 }
 
+/* ด้านซ้าย */
 .left-container-arrow {
     height: 0;
     width: 0;
@@ -634,6 +646,7 @@ input[type="radio"]:checked+label {
     right: -15px;
 }
 
+/* ด้านขวา */
 .right-container-arrow {
     height: 0;
     width: 0;
