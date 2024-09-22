@@ -558,6 +558,7 @@ input[type="radio"]:checked+label {
     }
 }
 
+/* เวลาที่จะให้แสดงแต่ละ textbox แบบเรียงต่อกันลงมา */
 .container:nth-child(2) {
     animation-delay: 1s;
 }
@@ -619,7 +620,6 @@ input[type="radio"]:checked+label {
     animation: moveline 6s linear forwards;
     -webkit-box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
     box-shadow: -2px 5px 15px 5px rgba(36, 13, 209, 0.208);
-
 }
 
 .textbox h2 {
