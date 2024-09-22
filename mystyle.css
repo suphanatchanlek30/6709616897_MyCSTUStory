@@ -633,6 +633,12 @@ input[type="radio"]:checked+label {
     color: #E3E4E6;
 }
 
+.textbox p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #cbcbcb;
+}
+
 /* ด้านซ้าย */
 .left-container-arrow {
     height: 0;
