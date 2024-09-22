@@ -666,3 +666,10 @@ input[type="radio"]:checked+label {
 }
 
 /* myjourney.html End */
+
+/* Responsive index.html */
+
+/* สไตล์สำหรับหน้าจอขนาดเล็ก (Mobile) */
+@media (max-width: 480px) {
+    
+}
