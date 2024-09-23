@@ -532,6 +532,13 @@ input[type="radio"]:checked+label {
     text-align: center;
 }
 
+.text_myjourner p {
+    margin-top: 2rem;
+    color: #E3E4E6;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
 .timeline {
     position: relative;
     max-width: 1200px;
