@@ -699,3 +699,29 @@ input[type="radio"]:checked+label {
 /* myjourney Success */
 
 /* myjourney.html End */
+
+/* myfuture.html Start */
+
+.myfuture span {
+    font-size: 2rem;
+    font-weight: 600;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.text_myfuture {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.text_myfuture p {
+    margin-top: 2rem;
+    color: #E3E4E6;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+/* myfuture.html End */
